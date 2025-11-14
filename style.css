@@ -32,7 +32,7 @@ body {
         url(img/33236.jpg) center no-repeat fixed;
 
     background-size: cover;
-    
+
 }
 
 /* HEADER */
@@ -64,7 +64,7 @@ header .menu ul a {
 
 }
 
-header .menu ul a:hover{
+header .menu ul a:hover {
     transform: translateY(-3px);
     text-decoration: underline;
 }
@@ -97,7 +97,7 @@ header .marca h1 {
     font-size: 5rem;
     line-height: 80px;
     margin-bottom: 10px;
-
+    text-transform: uppercase;
 }
 
 #s1 .hero button {
@@ -112,17 +112,25 @@ header .marca h1 {
     margin-top: 10px;
     transition: all .2s ease-in;
     border: 1px white solid;
-    
+
 
 }
 
-#s1 i{
+#s1 i {
     font-size: 1.8rem;
 }
 
-#s1 .hero button:hover{
+#s1 .hero button:hover {
     background-color: var(--rosa);
     color: white;
     border: 1px white solid;
     transform: translateY(-3px);
+}
+
+
+/* SEGUNDA SECAO */
+
+#s2 {
+    color: #f47499;
+
 }
