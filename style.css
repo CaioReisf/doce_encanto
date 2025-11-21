@@ -29,7 +29,7 @@ body {
     background-color: var(--rosa);
     background:
         linear-gradient(#f47498be),
-        url(img/33236.jpg) center no-repeat fixed;
+        url(img/33236.jpg) center no-repeat scroll;
 
     background-size: cover;
 
@@ -132,5 +132,31 @@ header .marca h1 {
 
 #s2 {
     color: #f47499;
+    margin-top: 17%;
+    background-color: white;
+    padding: 50px;
+}
 
+#s2 h1{
+    font-family: var(--fonttitulo);
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#s2 .sobre{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+#s2 .txtsobre p{
+    width: 500px;
+    font-family: var(--fonttextos);
+    font-size: 1.5rem;
+}
+
+#s2 img{
+    border-radius: 50px;
 }
